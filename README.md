@@ -5,10 +5,6 @@
 test_authorization_page_rt.py,
 test_registration_page_rt.py
  написана реализация тест-кейсов
-В репозитории лежат файлы: 
-conftest.py
-requirements.txt
-pytest.ini
 
 В файле conftest.py реализована логика запуска браузера и добавлен обработчик, который считывает из командной строки параметр browser_name, а так же language (если сайт поддерживает разные языки)
 Браузер объявлется в фикстуре browser и передается в тест как параметр.
